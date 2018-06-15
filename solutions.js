@@ -47,8 +47,25 @@
 
 // 	Commit 4 - Pythagoras
 
-const calculateSide = (sideA, sideB) => {
-	return Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
+// const calculateSide = (sideA, sideB) => {
+// 	return Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
 
+// }
+// console.log(calculateSide(8, 6));
+
+
+// Commit 5 - Sum Array 
+// NOT complete - just writing down thoughts - haven't thought 
+// this through yet. wanted to get homework submitted. 
+// will continue to work on this and the rest of the homework.
+
+
+let sum = 0;
+
+const sumArray = (num) => {
+	for (let i = 0; i < num.length; i++) {
+		//sumArray + num.length
+	}
 }
-console.log(calculateSide(8, 6));
+console.log(sumArray([1, 2, 3, 4, 5, 6]));
+
