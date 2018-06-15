@@ -25,3 +25,21 @@ const checkPalindrome = (str) => {
 }
 console.log(checkPalindrome("Radar"));
 console.log(checkPalindrome("Borscht"));
+
+
+// "Commit 3 - Digit Sum"
+
+const sumDigits = (num) => {
+	num = num.toString();
+	let returnValue = 0;
+	for (i = 0; i < num.length; i++) {
+		returnValue += parseInt(num[i]);
+	}
+	return returnValue;
+}
+
+console.log("digits = 123");
+console.log(sumDigits(123));
+
+console.log("digits = 12345");
+console.log(sumDigits(12345));
