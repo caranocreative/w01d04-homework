@@ -10,36 +10,45 @@
 // 		return returns the function in the code
 
 
-// Commit 2 - Palindrome"
+// // Commit 2 - Palindrome"
 
 
-const reverseWord = (str) => {
-	let returnValue = "";
-	for (i = str.length - 1; i >= 0; i--) {
-		returnValue += str[i];
-	}
-	return returnValue;
+// const reverseWord = (str) => {
+// 	let returnValue = "";
+// 	for (i = str.length - 1; i >= 0; i--) {
+// 		returnValue += str[i];
+// 	}
+// 	return returnValue;
+// }
+// const checkPalindrome = (str) => {
+// 	return reverseWord(str.toLowerCase()) == str.toLowerCase();
+// }
+// console.log(checkPalindrome("Radar"));
+// console.log(checkPalindrome("Borscht"));
+
+
+// // "Commit 3 - Digit Sum"
+
+// const sumDigits = (num) => {
+// 	num = num.toString();
+// 	let returnValue = 0;
+// 	for (i = 0; i < num.length; i++) {
+// 		returnValue += parseInt(num[i]);
+// 	}
+// 	return returnValue;
+// }
+
+// console.log("digits = 123");
+// console.log(sumDigits(123));
+
+// console.log("digits = 12345");
+// console.log(sumDigits(12345));
+
+
+// 	Commit 4 - Pythagoras
+
+const calculateSide = (sideA, sideB) => {
+	return Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
+
 }
-const checkPalindrome = (str) => {
-	return reverseWord(str.toLowerCase()) == str.toLowerCase();
-}
-console.log(checkPalindrome("Radar"));
-console.log(checkPalindrome("Borscht"));
-
-
-// "Commit 3 - Digit Sum"
-
-const sumDigits = (num) => {
-	num = num.toString();
-	let returnValue = 0;
-	for (i = 0; i < num.length; i++) {
-		returnValue += parseInt(num[i]);
-	}
-	return returnValue;
-}
-
-console.log("digits = 123");
-console.log(sumDigits(123));
-
-console.log("digits = 12345");
-console.log(sumDigits(12345));
+console.log(calculateSide(8, 6));
