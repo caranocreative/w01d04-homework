@@ -8,3 +8,20 @@
 // Within a function, what is the difference between return and console.log?
 // 		console.log is for the developer and shows in the console to debug
 // 		return returns the function in the code
+
+
+// Commit 2 - Palindrome"
+
+
+const reverseWord = (str) => {
+	let returnValue = "";
+	for (i = str.length - 1; i >= 0; i--) {
+		returnValue += str[i];
+	}
+	return returnValue;
+}
+const checkPalindrome = (str) => {
+	return reverseWord(str.toLowerCase()) == str.toLowerCase();
+}
+console.log(checkPalindrome("Radar"));
+console.log(checkPalindrome("Borscht"));
